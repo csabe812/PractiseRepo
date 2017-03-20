@@ -15,4 +15,5 @@ public class Labels {
 	
 	//Button labels
 	public final static String okButton = "Ok";
+	public final static String cancelButton = "Cancel";
 }

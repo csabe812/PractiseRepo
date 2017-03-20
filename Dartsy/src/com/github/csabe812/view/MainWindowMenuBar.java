@@ -3,11 +3,13 @@ package com.github.csabe812.view;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
 import com.github.csabe812.view.dialog.AboutUsDialog;
+import com.github.csabe812.view.dialog.NewPlayerDialog;
 
 public class MainWindowMenuBar extends JMenuBar implements ActionListener {
 
@@ -38,6 +40,10 @@ public class MainWindowMenuBar extends JMenuBar implements ActionListener {
 		String cmd = e.getActionCommand();
 		if(cmd.equals(Labels.aboutUs)) {
 			new AboutUsDialog(mw);
+		} else if(cmd.equals(Labels.exit)) {
+			System.exit(0);
+		} else if(cmd.equals(Labels.addNewPlayer)) {
+			new NewPlayerDialog(mw);
 		}
 	}
 	

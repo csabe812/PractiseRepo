@@ -25,7 +25,7 @@ public class AboutUsDialog extends JDialog implements ActionListener {
 	public AboutUsDialog(MainWindow mw) {
 		super(mw.getMainWindow());
 		this.mw = mw;
-		
+		this.setTitle(Labels.aboutUs);
 		JPanel jp = new JPanel();
 		jp.setLayout(new GridLayout(3, 1));
 		
