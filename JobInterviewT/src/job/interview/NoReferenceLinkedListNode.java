@@ -1,6 +1,6 @@
 package job.interview;
 
-public class NoRefereneLinkedListNode implements Node {
+public class NoReferenceLinkedListNode implements Node {
 
 	@Override
 	public String value() {
