@@ -1,0 +1,4 @@
+Your task is to implement three types of linked list:
+	(1): a single linked list
+	(2): a double linked list
+	(3): a linked list which should contain no references (pointers)
